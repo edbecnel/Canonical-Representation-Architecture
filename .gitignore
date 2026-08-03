@@ -31,3 +31,6 @@ Desktop.ini
 *.log
 tmp/
 temp/
+
+# Generated conformance reports (local validation output)
+reports/conformance/
