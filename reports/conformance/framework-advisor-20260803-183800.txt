@@ -1,0 +1,141 @@
+Engineering Documentation Framework Adoption Conformance Validation
+===================================================================
+
+Project root: /Users/edbecnel/Development/GitHub/Canonical-Representation-Architecture
+Started: 2026-08-03 18:38:00 +0800
+
+Framework Advisor conformance analysis
+--------------------------------------
+Engineering Documentation Framework Advisor
+Ruleset: 2026-07-10-stage1
+===========================================
+
+Project root: /Users/edbecnel/Development/GitHub/Canonical-Representation-Architecture
+Project name: Canonical-Representation-Architecture
+Profile: core
+Repository mode: EDF adopting project
+Overall compliance: 48%
+Structure score: 94%
+AI score: 10%
+Navigation score: 35%
+Governance score: 55%
+
+This report is read-only.
+No files or folders were created, modified, moved, renamed, or deleted.
+
+Missing required directories
+----------------------------
+None.
+
+Missing recommended root files
+------------------------------
+- README.md
+- CHANGELOG.md
+
+Missing AI handbook files
+-------------------------
+- docs/AI/AI_Philosophy.md
+- docs/AI/AI_Roles.md
+- docs/AI/AI_Decision_Matrix.md
+- docs/AI/Cost_Optimization.md
+- docs/AI/Prompting_Guide.md
+- docs/AI/Context_Checklist.md
+- docs/AI/Verification.md
+- docs/AI/Security.md
+- docs/AI/Governance.md
+
+Missing Governance files
+------------------------
+- docs/Governance/README.md
+- docs/Governance/Governance_Overview.md
+- docs/Governance/EDF_Governance.md
+- docs/Governance/Document_Metadata_Standard.md
+- docs/Governance/Document_Lifecycle.md
+- docs/Governance/Ownership_and_Review.md
+- docs/Governance/Change_Management.md
+- docs/Governance/Analyzer_Compliance.md
+- docs/Governance/Governance_Checklist.md
+
+Broken links
+------------
+- PROJECT_INDEX.md -> README.md
+- PROJECT_INDEX.md -> docs/Developer_Handbook/README.md
+- PROJECT_INDEX.md -> docs/Developer_Handbook/00_First_Time_Setup.md
+- PROJECT_INDEX.md -> docs/API/README.md
+- PROJECT_INDEX.md -> docs/Database/README.md
+- PROJECT_INDEX.md -> docs/Deployment/README.md
+- docs/Specifications/README.md -> ../../README.md
+- docs/User_Guides/README.md -> ../../README.md
+- docs/Development/README.md -> ../Developer_Handbook/README.md
+- docs/Development/README.md -> ../Developer_Handbook/README.md
+- docs/Development/README.md -> ../../README.md
+- docs/Architecture/README.md -> ../../README.md
+- docs/AI/README.md -> ../../README.md
+- docs/Templates/README.md -> ../../README.md
+- docs/Reference/README.md -> ../../README.md
+
+Orphan documents
+----------------
+- ENGINEERING_DOCUMENTATION_FRAMEWORK.md
+- CRA-0000.md
+
+Navigation issues
+-----------------
+- docs/Specifications/README.md: missing breadcrumb navigation.
+- docs/User_Guides/README.md: missing breadcrumb navigation.
+- docs/Development/README.md: missing breadcrumb navigation.
+- docs/Architecture/README.md: missing breadcrumb navigation.
+- docs/Architecture/ADRs/README.md: missing breadcrumb navigation.
+- docs/AI/README.md: missing breadcrumb navigation.
+- docs/Templates/README.md: missing breadcrumb navigation.
+- docs/Reference/README.md: missing breadcrumb navigation.
+
+Governance metadata and lifecycle issues
+----------------------------------------
+None.
+
+Overdue reviews
+---------------
+None.
+
+Markdown outside canonical locations
+------------------------------------
+- CRA-0000.md
+
+Warnings
+--------
+None.
+
+Recommendations
+---------------
+- Audit Markdown outside canonical locations.
+- Complete the modular AI Engineering Handbook.
+- Complete the Governance documentation domain.
+- Repair broken relative Markdown links.
+- Link orphan documents from the project hierarchy.
+- Add required breadcrumb and parent navigation.
+
+
+Validation completed: 2026-08-03 18:38:01 +0800
+
+============================================================
+Conformance validation completed successfully.
+
+Report:
+reports/conformance/framework-advisor-20260803-183800.txt
+
+Compliance scores:
+- Overall: 48%
+- Structure: 94%
+- AI: 10%
+- Navigation: 35%
+- Governance: 55%
+
+Next recommended actions:
+- Audit Markdown outside canonical locations.
+- Complete the modular AI Engineering Handbook.
+- Complete the Governance documentation domain.
+- Repair broken relative Markdown links.
+- Link orphan documents from the project hierarchy.
+- Add required breadcrumb and parent navigation.
+============================================================
