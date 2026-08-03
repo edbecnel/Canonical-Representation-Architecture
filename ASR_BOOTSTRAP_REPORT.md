@@ -34,7 +34,7 @@ Record the outcome of the Canonical Representation Architecture (CRA) Architectu
 | Map existing documents | Complete | `CRA-0000` mapped at root; logical domain `docs/Architecture/` |
 | Create missing bootstrap artifacts | Complete | README, identity docs, domain READMEs |
 | Record deferred items | Complete | See Deferred Artifacts below |
-| Validate | Complete | Framework Advisor run with `profile: core` |
+| Validate | Complete | Framework Advisor executed with `profile: core`; Bootstrap tier met (see Validation Summary) |
 | Report gaps | Complete | See Gaps and Feedback sections |
 
 ## Document Mappings
@@ -62,23 +62,38 @@ Record the outcome of the Canonical Representation Architecture (CRA) Architectu
 - [ ] Timing and scope of `CRA-0001` as first normative specification
 - [ ] Whether to pursue Navigable-tier conformance remediation for remaining Framework Advisor advisories
 
-## Framework Advisor Results
+## Validation Summary
 
-| Metric | Score | Date | Report path |
+### Policy
+
+Framework Advisor output under `reports/conformance/` is **transient engineering evidence**. It is generated during validation runs, is reproducible from the repository state and EDF tooling, and is **intentionally excluded from version control** (see `.gitignore`). This report records validation outcomes only — not specific report filenames or paths.
+
+### Execution
+
+- **Tool:** Engineering Documentation Framework Advisor (`adopt-edf.sh validate` with `profile: core`)
+- **Executed:** Yes — during bootstrap (post–identity population) on 2026-08-03
+- **Result:** Validation completed successfully
+
+### Outcomes
+
+| Metric | Score | Bootstrap tier target | Status |
 |---|---|---|---|
-| Overall | 65% | 2026-08-03 | `reports/conformance/framework-advisor-20260803-183920.txt` |
-| Structure | 97% | 2026-08-03 | `reports/conformance/framework-advisor-20260803-183920.txt` |
-| Navigation | 97% | 2026-08-03 | `reports/conformance/framework-advisor-20260803-183920.txt` |
-| AI | 10% | 2026-08-03 | `reports/conformance/framework-advisor-20260803-183920.txt` |
-| Governance | 57% | 2026-08-03 | `reports/conformance/framework-advisor-20260803-183920.txt` |
+| Overall | 65% | ≥ 50% | Met |
+| Structure | 97% | ≥ 80% | Met |
+| Navigation | 97% | ≥ 40% | Met |
+| AI | 10% | ≥ 10% | Met |
+| Governance | 57% | ≥ 20% | Met |
 
-All scores meet the EDF **Bootstrap** tier targets (Overall ≥ 50%, Structure ≥ 80%, Navigation ≥ 40%, AI ≥ 10%, Governance ≥ 20%).
+**Overall validation status:** Bootstrap tier conformance achieved. The repository is ready for post-bootstrap architectural development.
 
-**Known intentional advisories:**
+### Significant findings influencing bootstrap
 
-- `CRA-0000.md` and `ASR_BOOTSTRAP_REPORT.md` listed under "Markdown outside canonical locations" — `CRA-0000` preserved at root per Historical Preservation Principle; bootstrap report at root per EDF ASR template
-- Low AI and Governance scores expected at bootstrap tier
-- Missing software profile directories not penalized under `profile: core`
+- **`CRA-0000.md` preserved at root** — Framework Advisor flagged markdown outside canonical locations; accepted per Historical Preservation Principle. Navigation links added from `README.md`, `PROJECT_INDEX.md`, and `docs/Architecture/README.md`.
+- **Low AI and Governance scores** — Expected at bootstrap; full AI handbook and governance domain are maturity-dependent and deferred.
+- **Software profile directories** — Correctly absent under `profile: core`; not penalized.
+- **`CHANGELOG.md` missing** — Framework Advisor recommended root file; deferred as non-blocking for bootstrap.
+
+Detailed Framework Advisor output is written to `reports/conformance/` when validation runs locally. That output is execution artifact only and is not part of the permanent repository record.
 
 ## Feedback for EDF
 
