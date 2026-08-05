@@ -78,15 +78,15 @@ Instead, the responses serve as independent engineering evidence that informs su
 
 ## Independent AI Reviews
 
-| AI Model      | Version     | Response                                     |
-| ------------- | ----------- | -------------------------------------------- |
-| ChatGPT       | GPT-5.5     | [[ChatGPT_GPT-5.5]]`ChatGPT_GPT-5.5.md`      |
-| Gemini        | _(version)_ | [[Gemini]] `Gemini.md`                       |
-| Claude Sonnet | _(version)_ | [[Claude_Sonnet-4.6]] `Claude_Sonnet-4.6.md` |
-| Grok          | _(version)_ | [[Grok]] `Grok.md`                           |
-| DeepSeek      | R1          | [[DeepSeek_R1]] `DeepSeek_R1.md`             |
-| Composer      | 2.5         | [[Composer_2.5]] `Composer_2.5.md`           |
-
+| AI Model      | Version     | Access Method            | Repository Context | Classification                   | Response                                                           |
+| ------------- | ----------- | ------------------------ | ------------------ | -------------------------------- | ------------------------------------------------------------------ |
+| ChatGPT       | GPT-5.5     | ChatGPT Web              | No                 | Independent Architectural Review | [[ChatGPT_GPT-5.5]] `ChatGPT_GPT-5.5.md`                           |
+| Gemini        | _(version)_ | Gemini Web               | No                 | Independent Architectural Review | [[Gemini]] `Gemini.md`                                             |
+| Claude Sonnet | 5           | Claude Web               | No                 | Independent Architectural Review | [[Claude_Sonnet_Web]] `Claude_Sonnet_Web.md`                       |
+| Claude Sonnet | 4.6         | GitHub Copilot (VS Code) | Yes                | Contextual Architectural Review  | [[Claude_Sonnet_GitHub_Copilot]] `Claude_Sonnet_GitHub_Copilot.md` |
+| Grok          | _(version)_ | Grok Web                 | No                 | Independent Architectural Review | [[Grok]] `Grok.md`                                                 |
+| DeepSeek      | R1          | DeepSeek Web             | No                 | Independent Architectural Review | [[DeepSeek_R1]] `DeepSeek_R1.md`                                   |
+| Composer      | 2.5         | Composer Web             | No                 | Independent Architectural Review | [[Composer_2.5]] `Composer_2.5.md`                                 |
 *(Update the version information as appropriate when responses are collected.)*
 
 ---
