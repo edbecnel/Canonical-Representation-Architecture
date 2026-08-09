@@ -5,16 +5,17 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** AI-assisted engineering for CRA documentation
-> **Last Reviewed:** 2026-08-03
+> **Last Reviewed:** 2026-08-09
 > **Review Frequency:** On Change
 
 ## Purpose
 
-AI-assisted engineering practices for developing and maintaining CRA documentation. This domain will expand as the architecture program matures.
+AI-assisted engineering practices and architectural research for developing and maintaining CRA documentation.
 
 ## Authoritative Documents
 
-_None yet._ A full modular AI handbook is deferred beyond bootstrap.
+- [Architectural Research](Architectural_Research/README.md) — non-normative research tracks
+- [Canonical Knowledge research](Architectural_Research/Canonical_Knowledge/README.md) — complete; handoff to CRA-0001
 
 ## Navigation
 

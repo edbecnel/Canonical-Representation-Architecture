@@ -4,8 +4,11 @@
 > **Document Class:** Architectural Research
 > **Owner:** CRA Architecture Team
 > **Applies To:** Architectural research supporting the Canonical Representation Architecture
-> **Last Reviewed:** 2026-08-05
+> **Last Reviewed:** 2026-08-09
 > **Review Frequency:** On Change
+
+**Research phase: Complete** (2026-08-09). See [Comparative_Analysis.md](Comparative_Analysis.md) and [Conclusions.md](Conclusions.md). Next normative work: **CRA-0001**.
+
 # Canonical Knowledge Architectural Research
 
 ## Purpose
@@ -95,8 +98,8 @@ Instead, the responses serve as independent engineering evidence that informs su
 
 | Document | Description |
 |----------|-------------|
-| `Comparative_Analysis.md` | Human analysis comparing the independent AI responses, identifying convergence, divergence, assumptions, and architectural implications. |
-| `Conclusions.md` | Engineering conclusions derived from the research and their relationship to future CRA specifications. |
+| [Comparative_Analysis.md](Comparative_Analysis.md) | Convergence, divergence, and CRA-relevant implications across independent AI reviews. |
+| [Conclusions.md](Conclusions.md) | Working definition, candidate principles for CRA-0001, and open questions. |
 
 ---
 

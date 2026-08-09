@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Canonical Representation Architecture documentation navigation
-> **Last Reviewed:** 2026-08-03
+> **Last Reviewed:** 2026-08-09
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -18,17 +18,23 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 |---|---|
 | **Project** | Canonical Representation Architecture (CRA) |
 | **Purpose** | Define invariant principles for canonical knowledge representation |
-| **Status** | Bootstrap complete; `CRA-0001` deferred |
+| **Status** | Canonical Knowledge research complete; **CRA-0001** in progress |
 | **Repository** | https://github.com/edbecnel/Canonical-Representation-Architecture |
 | **EDF profile** | `core` |
 
 ## Current Priorities
 
-1. Bootstrap complete — repository ready for architectural development
-2. Author `CRA-0001` as the first normative specification in `docs/Specifications/` (deferred)
+1. Author **CRA-0001 – Foundational Architectural Principles** in `docs/Specifications/`
+2. Resolve open questions from [Canonical Knowledge Conclusions](docs/AI/Architectural_Research/Canonical_Knowledge/Conclusions.md)
 3. Develop controlled vocabulary from specifications rather than premature glossary standardization
 
 ## Documentation Map
+
+### Architectural Research
+
+- [Canonical Knowledge research](docs/AI/Architectural_Research/Canonical_Knowledge/README.md) — complete
+- [Comparative Analysis](docs/AI/Architectural_Research/Canonical_Knowledge/Comparative_Analysis.md)
+- [Conclusions and CRA-0001 handoff](docs/AI/Architectural_Research/Canonical_Knowledge/Conclusions.md)
 
 ### Historical Foundation
 
