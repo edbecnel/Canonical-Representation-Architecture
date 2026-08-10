@@ -115,9 +115,20 @@ This research directory remains available as engineering evidence. It does not d
 Open question 2 (identity model) is resolved at the identity-model level:
 
 - canonical identifiers, equivalence rules, and versioning semantics are defined in CRA-0002;
-- representation fidelity remains deferred to CRA-0003.
+- representation fidelity was deferred to CRA-0003 (now complete).
 
 See [Identity Model Synthesis](../Identity_Model/Synthesis.md) for the engineering rationale.
+
+## Handoff to CRA-0003
+
+**Status:** Complete (2026-08-10). Normative content is in [`CRA-0003 — Representation Fidelity`](../../../Specifications/CRA-0003.md).
+
+Open question 3 (fidelity rules) is resolved at the representation fidelity level:
+
+- derivation, distinction preservation, and regeneration requirements are defined in CRA-0003;
+- evidence promotion rules remain deferred to future specifications or domain governance.
+
+See [Representation Fidelity Synthesis](../Representation_Fidelity/Synthesis.md) for the engineering rationale.
 
 ## Related Documents
 
@@ -126,4 +137,6 @@ See [Identity Model Synthesis](../Identity_Model/Synthesis.md) for the engineeri
 - [CRA-0000](../../../../CRA-0000.md)
 - [CRA-0002 — Identity Model](../../../Specifications/CRA-0002.md)
 - [Identity Model Synthesis](../Identity_Model/Synthesis.md)
+- [CRA-0003 — Representation Fidelity](../../../Specifications/CRA-0003.md)
+- [Representation Fidelity Synthesis](../Representation_Fidelity/Synthesis.md)
 - [docs/Specifications/README.md](../../../Specifications/README.md)

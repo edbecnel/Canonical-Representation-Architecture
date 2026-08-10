@@ -18,15 +18,15 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 |---|---|
 | **Project** | Canonical Representation Architecture (CRA) |
 | **Purpose** | Define invariant principles for canonical knowledge representation |
-| **Status** | CRA-0001 and CRA-0002 Draft v1.0 published; representation fidelity spec deferred |
+| **Status** | CRA-0001 through CRA-0003 Draft v1.0 published |
 | **Repository** | https://github.com/edbecnel/Canonical-Representation-Architecture |
 | **EDF profile** | `core` |
 
 ## Current Priorities
 
-1. Review and stabilize **CRA-0001** (Foundational Architectural Principles) and **CRA-0002** (Identity Model)
-2. Plan CRA-0003 (representation fidelity)
-3. Develop controlled vocabulary from specifications rather than premature glossary standardization
+1. Review and stabilize **CRA-0001**, **CRA-0002**, and **CRA-0003**
+2. Develop controlled vocabulary from specifications rather than premature glossary standardization
+3. Domain-specific evidence promotion rules as needed
 
 ## Documentation Map
 
@@ -34,6 +34,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 - [Canonical Knowledge research](docs/AI/Architectural_Research/Canonical_Knowledge/README.md) — complete
 - [Identity Model research](docs/AI/Architectural_Research/Identity_Model/README.md) — complete
+- [Representation Fidelity research](docs/AI/Architectural_Research/Representation_Fidelity/README.md) — complete
 - [Comparative Analysis](docs/AI/Architectural_Research/Canonical_Knowledge/Comparative_Analysis.md)
 - [Conclusions and CRA-0001 handoff](docs/AI/Architectural_Research/Canonical_Knowledge/Conclusions.md)
 
@@ -58,6 +59,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 - [CRA-0001 — Foundational Architectural Principles](docs/Specifications/CRA-0001.md) — Draft v1.0
 - [CRA-0002 — Identity Model](docs/Specifications/CRA-0002.md) — Draft v1.0
+- [CRA-0003 — Representation Fidelity](docs/Specifications/CRA-0003.md) — Draft v1.0
 - [Specifications domain](docs/Specifications/README.md)
 
 ### Program Operations
@@ -74,7 +76,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 ## AI Context
 
-AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. `CRA-0001` is the authoritative principles specification; `CRA-0002` is the authoritative identity model specification; do not author subsequent normative specifications unless explicitly requested.
+AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. `CRA-0001` is the authoritative principles specification; `CRA-0002` is the authoritative identity model; `CRA-0003` is the authoritative representation fidelity specification; do not author subsequent normative specifications unless explicitly requested.
 
 ## Related Documents
 

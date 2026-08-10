@@ -18,6 +18,7 @@ This directory contains **non-normative architectural research** conducted durin
 |---|---|---|
 | Canonical Knowledge | **Complete** | [Canonical_Knowledge/](Canonical_Knowledge/README.md) |
 | Identity Model | **Complete** | [Identity_Model/](Identity_Model/README.md) |
+| Representation Fidelity | **Complete** | [Representation_Fidelity/](Representation_Fidelity/README.md) |
 
 ## Relationship to CRA
 
@@ -25,6 +26,7 @@ This directory contains **non-normative architectural research** conducted durin
 - Normative decisions belong in `docs/Specifications/` (e.g., CRA-0001).
 - See [Canonical Knowledge — Conclusions](Canonical_Knowledge/Conclusions.md) for the handoff to CRA-0001.
 - See [Identity Model — Synthesis](Identity_Model/Synthesis.md) for the handoff to CRA-0002.
+- See [Representation Fidelity — Synthesis](Representation_Fidelity/Synthesis.md) for the handoff to CRA-0003.
 
 ## Navigation
 
