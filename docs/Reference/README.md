@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Controlled vocabulary and reference material for CRA
-> **Last Reviewed:** 2026-08-03
+> **Last Reviewed:** 2026-08-10
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -14,7 +14,7 @@ This domain holds the **controlled vocabulary** for the Canonical Representation
 
 ## Authoritative Documents
 
-_None yet._ A repository-wide glossary (`Glossary.md`) is deferred — vocabulary should emerge from foundational architectural specifications rather than being prematurely standardized during bootstrap.
+- [Glossary](Glossary.md) — controlled vocabulary indexed from CRA-0001 through CRA-0003
 
 ## What Belongs Here
 

@@ -20,6 +20,7 @@ Key documents:
 - [`CRA-0001`](docs/Specifications/CRA-0001.md) — Foundational Architectural Principles (normative; Draft v1.0)
 - [`CRA-0002`](docs/Specifications/CRA-0002.md) — Identity Model (normative; Draft v1.0)
 - [`CRA-0003`](docs/Specifications/CRA-0003.md) — Representation Fidelity (normative; Draft v1.0)
+- [`docs/Reference/Glossary.md`](docs/Reference/Glossary.md) — controlled vocabulary from CRA-0001–0003
 - [`docs/Specifications/README.md`](docs/Specifications/README.md) — normative specifications index
 
 ## Repository Structure

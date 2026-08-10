@@ -23,6 +23,7 @@ This is distinct from software product engineering (Developer Handbook, API, Dep
 ## Authoritative Documents
 
 - [ASR Bootstrap Report](../../ASR_BOOTSTRAP_REPORT.md) — outcome of EDF Architecture Specification Repository bootstrap
+- [CRA Adoption Roadmap](CRA_Adoption_Roadmap.md) — next steps after foundational specifications
 
 ## What Belongs Here
 

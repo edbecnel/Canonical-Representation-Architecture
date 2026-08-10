@@ -24,9 +24,9 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 ## Current Priorities
 
-1. Review and stabilize **CRA-0001**, **CRA-0002**, and **CRA-0003**
-2. Develop controlled vocabulary from specifications rather than premature glossary standardization
-3. Domain-specific evidence promotion rules as needed
+1. Foundational trilogy (CRA-0001–CRA-0003) stabilized; [controlled vocabulary](docs/Reference/Glossary.md) published
+2. Choose next substantive work per [CRA Adoption Roadmap](docs/Development/CRA_Adoption_Roadmap.md) — default: adoption exercise in a reference repo, then evidence promotion (CRA-0004) if ELS/AERF is active
+3. Mature governance and validation methodology as adopters require
 
 ## Documentation Map
 
@@ -65,8 +65,9 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ### Program Operations
 
 - [Development](docs/Development/README.md) — adoption and validation guidance
+- [CRA Adoption Roadmap](docs/Development/CRA_Adoption_Roadmap.md) — next steps after foundational specs
 - [Governance](docs/Governance/README.md) — specification evolution policy
-- [Reference](docs/Reference/README.md) — controlled vocabulary (glossary deferred)
+- [Reference](docs/Reference/README.md) — controlled vocabulary ([Glossary](docs/Reference/Glossary.md))
 
 ### Supporting Domains
 
