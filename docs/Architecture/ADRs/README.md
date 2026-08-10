@@ -17,6 +17,8 @@ This directory contains individual Architecture Decision Records for the Canonic
 | ID | Decision | Status | Date |
 |---|---|---|---|
 | [ADR-0001](ADR-0001-egls-identifier-alignment.md) | EGLS identifier alignment with CRA-0002 | Accepted | 2026-08-10 |
+| [ADR-0002](ADR-0002-egls-production-identity-model.md) | EGLS production identity model (GUID, scope, locators) | Accepted | 2026-08-10 |
+| [ADR-0003](ADR-0003-discovery-and-retrieval-separation.md) | Discovery and retrieval separation | Accepted | 2026-08-10 |
 
 ## Navigation
 

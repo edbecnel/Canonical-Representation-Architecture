@@ -57,17 +57,38 @@ Palm muting content was extracted from Phase 2 §2.1 and authored as a governed 
 | **Organizational locator** | `02_Technique/Palm_Muting.md` (EGLS repo) |
 | **Scope** | EGLS repository |
 
+### Production identity model (informative)
+
+This subsection describes a **target production shape** for EGLS identity. It is informative only and is **not implemented** in EGLS-001, which uses a scope-local slug and a single file-path locator.
+
+Per [CRA-0002](../../Specifications/CRA-0002.md) IM-1 and IM-2, production identity separates three architecturally distinct layers:
+
+1. **Canonical identifier** — an opaque UUID or URN equivalent, assigned at governance designation and immutable across relocation or reformatting
+2. **Scope** — an explicit scope qualification (for example, `egls` or the EGLS repository per CRA FP-4)
+3. **Organizational locators** — one or more retrieval addresses for the canonical encoding; locators are NOT identity
+
+| Layer | Production example | EGLS-001 exercise |
+|---|---|---|
+| Canonical identifier | `urn:uuid:7f3a9c2e-...` | `technique-palm-muting` (slug) |
+| Scope | `egls` | EGLS repository |
+| Human alias | `technique-palm-muting` | same as identifier |
+| Locators | `egls:02_Technique/Palm_Muting`, file path, URL | `02_Technique/Palm_Muting.md` only |
+
+Organizational locators MAY take multiple equivalent forms for the same artifact: repository-relative file paths, scope-qualified colon paths (for example, `egls:02_Technique/Palm_Muting`), network URLs, or other storage keys. CRA permits multiple locators per artifact without affecting identity equivalence.
+
+See [ADR-0002 — EGLS Production Identity Model](../../Architecture/ADRs/ADR-0002-egls-production-identity-model.md) for the accepted architectural decision. Implementation is deferred until an identity registry is introduced or a second governed Knowledge Object is authored (see **Gaps and Watch Items** below).
+
 ## CRA-0003 Representation Fidelity
 
-| Requirement | Evidence | Met? |
-|---|---|---|
-| **RF-1** Fidelity reference | Tab example evaluated against Knowledge Object body, not vice versa | Yes |
-| **RF-2** Distinction preservation | Hand position, pinky-side edge, bridge placement preserved from genesis §2.1 | Yes |
-| **RF-3** Lossy boundaries | One-line summary below is **lossy**; must not substitute for object | Yes |
-| **RF-4** Representational change | Reformatting Markdown layout does not change semantic version | Yes |
-| **RF-5** Semantic change versioning | Substantive technique change would update `version` / lineage | Yes |
-| **RF-6** Regeneration integrity | Regenerated Markdown must preserve committed distinctions | Yes |
-| **RF-7** Navigation separation | File path is not authoritative relationship definition | Yes |
+| Requirement                         | Evidence                                                                     | Met? |
+| ----------------------------------- | ---------------------------------------------------------------------------- | ---- |
+| **RF-1** Fidelity reference         | Tab example evaluated against Knowledge Object body, not vice versa          | Yes  |
+| **RF-2** Distinction preservation   | Hand position, pinky-side edge, bridge placement preserved from genesis §2.1 | Yes  |
+| **RF-3** Lossy boundaries           | One-line summary below is **lossy**; must not substitute for object          | Yes  |
+| **RF-4** Representational change    | Reformatting Markdown layout does not change semantic version                | Yes  |
+| **RF-5** Semantic change versioning | Substantive technique change would update `version` / lineage                | Yes  |
+| **RF-6** Regeneration integrity     | Regenerated Markdown must preserve committed distinctions                    | Yes  |
+| **RF-7** Navigation separation      | File path is not authoritative relationship definition                       | Yes  |
 
 ### Lossy derived representation (RF-3 example)
 
@@ -87,7 +108,8 @@ EGLS can demonstrate CRA-0001 principles-level, CRA-0002 identity-level, and CRA
 
 | Gap | Notes | Future action |
 |---|---|---|
-| No identity registry file | Identity carried in per-object front matter only | Consider registry when object count grows |
+| No identity registry file | Identity carried in per-object front matter only | Consider registry when object count grows; see ADR-0002 |
+| No discovery index | Tags/metadata exist on `technique-palm-muting` but no search index or semantic path vocabulary | See ADR-0003; implement with registry |
 | `source` field not in EGLS field reference | Used for provenance in adoption exercise | Propose field in EGLS metadata standard |
 | Version lineage not exercised | v1.0 initial designation only | Demonstrate on first semantic amendment |
 | Evidence promotion | Not applicable to this guitar technique object | CRA-0004 candidate if AERF/ELS evidence workflow proceeds |
@@ -96,4 +118,6 @@ EGLS can demonstrate CRA-0001 principles-level, CRA-0002 identity-level, and CRA
 
 - [Genesis Document Inventory](Genesis_Document_Inventory.md)
 - [ADR-0001 — EGLS Identifier Alignment](../../Architecture/ADRs/ADR-0001-egls-identifier-alignment.md)
+- [ADR-0002 — EGLS Production Identity Model](../../Architecture/ADRs/ADR-0002-egls-production-identity-model.md)
+- [ADR-0003 — Discovery and Retrieval Separation](../../Architecture/ADRs/ADR-0003-discovery-and-retrieval-separation.md)
 - [CRA-0001](../../Specifications/CRA-0001.md) · [CRA-0002](../../Specifications/CRA-0002.md) · [CRA-0003](../../Specifications/CRA-0003.md)

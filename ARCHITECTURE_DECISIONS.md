@@ -21,6 +21,8 @@ Individual ADRs belong in [`docs/Architecture/ADRs/`](docs/Architecture/ADRs/REA
 | ID | Decision | Status | Date |
 |---|---|---|---|
 | [ADR-0001](docs/Architecture/ADRs/ADR-0001-egls-identifier-alignment.md) | EGLS identifier alignment with CRA-0002 | Accepted | 2026-08-10 |
+| [ADR-0002](docs/Architecture/ADRs/ADR-0002-egls-production-identity-model.md) | EGLS production identity model (GUID, scope, locators) | Accepted | 2026-08-10 |
+| [ADR-0003](docs/Architecture/ADRs/ADR-0003-discovery-and-retrieval-separation.md) | Discovery and retrieval separation | Accepted | 2026-08-10 |
 
 Future decisions will address specification structure, identifier conventions, governance policy, and other program-level architectural choices.
 
