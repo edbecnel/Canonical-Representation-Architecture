@@ -98,14 +98,13 @@ The research phase intentionally leaves the following decisions to normative spe
 
 ## Handoff to CRA-0001
 
-**Next normative deliverable:** `CRA-0001 – Foundational Architectural Principles` in [`docs/Specifications/`](../../../Specifications/README.md).
+**Status:** Complete (2026-08-10). Normative content is in [`CRA-0001 — Foundational Architectural Principles`](../../../Specifications/CRA-0001.md).
 
-CRA-0001 should:
+CRA-0001:
 
-- adopt, refine, or reject the working definition above;
-- normativize principles P1–P5 (or their refined equivalents);
-- resolve the open questions within CRA's architectural scope;
-- define conformance expectations for adopters.
+- adopted the working definition and candidate principles P1–P5 as FP-1 through FP-5;
+- resolved primitive unit (canonical artifact) and term retention at the principles level;
+- explicitly deferred identity mechanics, fidelity rules, and detailed evidence promotion to CRA-0002+.
 
 This research directory remains available as engineering evidence. It does not derive normative authority.
 

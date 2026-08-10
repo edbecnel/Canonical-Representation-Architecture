@@ -6,7 +6,7 @@ CRA is not a software framework or implementation technology. It is an architect
 
 ## Status
 
-Active — bootstrap complete; normative specification development begins with `CRA-0001` (deferred).
+Active — CRA-0001 (Foundational Architectural Principles) published as Draft v1.0.
 
 ## Documentation
 
@@ -17,7 +17,8 @@ Key documents:
 - [`CRA-0000.md`](CRA-0000.md) — permanent historical foundation (Architectural Discovery Record)
 - [`PROJECT_CHARTER.md`](PROJECT_CHARTER.md) — architecture program mission and scope
 - [`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md) — architecture decision index
-- [`docs/Specifications/README.md`](docs/Specifications/README.md) — normative specifications (`CRA-0001+`)
+- [`CRA-0001`](docs/Specifications/CRA-0001.md) — Foundational Architectural Principles (normative; Draft v1.0)
+- [`docs/Specifications/README.md`](docs/Specifications/README.md) — normative specifications index
 
 ## Repository Structure
 

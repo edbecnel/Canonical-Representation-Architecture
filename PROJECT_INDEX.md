@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Canonical Representation Architecture documentation navigation
-> **Last Reviewed:** 2026-08-09
+> **Last Reviewed:** 2026-08-10
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -18,14 +18,14 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 |---|---|
 | **Project** | Canonical Representation Architecture (CRA) |
 | **Purpose** | Define invariant principles for canonical knowledge representation |
-| **Status** | Canonical Knowledge research complete; **CRA-0001** in progress |
+| **Status** | CRA-0001 Draft v1.0 published; identity and fidelity specs deferred |
 | **Repository** | https://github.com/edbecnel/Canonical-Representation-Architecture |
 | **EDF profile** | `core` |
 
 ## Current Priorities
 
-1. Author **CRA-0001 – Foundational Architectural Principles** in `docs/Specifications/`
-2. Resolve open questions from [Canonical Knowledge Conclusions](docs/AI/Architectural_Research/Canonical_Knowledge/Conclusions.md)
+1. Review and stabilize **CRA-0001** (Foundational Architectural Principles)
+2. Plan CRA-0002 (identity model) and CRA-0003 (representation fidelity)
 3. Develop controlled vocabulary from specifications rather than premature glossary standardization
 
 ## Documentation Map
@@ -55,7 +55,8 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 ### Normative Specifications
 
-- [Specifications domain](docs/Specifications/README.md) — `CRA-0001+` (none yet)
+- [CRA-0001 — Foundational Architectural Principles](docs/Specifications/CRA-0001.md) — Draft v1.0
+- [Specifications domain](docs/Specifications/README.md)
 
 ### Program Operations
 
@@ -71,7 +72,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 ## AI Context
 
-AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. Do not author `CRA-0001` or subsequent specifications unless explicitly requested.
+AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. `CRA-0001` is the authoritative principles specification; do not author subsequent normative specifications unless explicitly requested.
 
 ## Related Documents
 

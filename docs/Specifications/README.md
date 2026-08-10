@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Normative Canonical Representation Architecture specifications
-> **Last Reviewed:** 2026-08-03
+> **Last Reviewed:** 2026-08-10
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -25,7 +25,7 @@ Normative specifications use the `CRA-NNNN` identifier series beginning at `CRA-
 
 ## Authoritative Documents
 
-_None yet._ The first normative specification (`CRA-0001`) is deferred until post-bootstrap architectural development.
+- [CRA-0001 — Foundational Architectural Principles](CRA-0001.md) — Draft v1.0
 
 ## Navigation
 
