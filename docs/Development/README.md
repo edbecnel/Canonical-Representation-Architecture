@@ -24,6 +24,7 @@ This is distinct from software product engineering (Developer Handbook, API, Dep
 
 - [ASR Bootstrap Report](../../ASR_BOOTSTRAP_REPORT.md) — outcome of EDF Architecture Specification Repository bootstrap
 - [CRA Adoption Roadmap](CRA_Adoption_Roadmap.md) — next steps after foundational specifications
+- [EGLS Adoption](EGLS_Adoption/Genesis_Document_Inventory.md) — genesis document inventory and adoption report
 
 ## What Belongs Here
 

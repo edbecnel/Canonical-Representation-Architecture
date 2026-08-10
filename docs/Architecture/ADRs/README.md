@@ -16,7 +16,7 @@ This directory contains individual Architecture Decision Records for the Canonic
 
 | ID | Decision | Status | Date |
 |---|---|---|---|
-| _None yet_ | | | |
+| [ADR-0001](ADR-0001-egls-identifier-alignment.md) | EGLS identifier alignment with CRA-0002 | Accepted | 2026-08-10 |
 
 ## Navigation
 

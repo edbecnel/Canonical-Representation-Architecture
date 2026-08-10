@@ -20,7 +20,7 @@ Individual ADRs belong in [`docs/Architecture/ADRs/`](docs/Architecture/ADRs/REA
 
 | ID | Decision | Status | Date |
 |---|---|---|---|
-| _None yet_ | | | |
+| [ADR-0001](docs/Architecture/ADRs/ADR-0001-egls-identifier-alignment.md) | EGLS identifier alignment with CRA-0002 | Accepted | 2026-08-10 |
 
 Future decisions will address specification structure, identifier conventions, governance policy, and other program-level architectural choices.
 

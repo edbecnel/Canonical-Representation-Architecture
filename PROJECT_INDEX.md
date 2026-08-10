@@ -25,7 +25,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ## Current Priorities
 
 1. Foundational trilogy (CRA-0001–CRA-0003) stabilized; [controlled vocabulary](docs/Reference/Glossary.md) published
-2. Choose next substantive work per [CRA Adoption Roadmap](docs/Development/CRA_Adoption_Roadmap.md) — default: adoption exercise in a reference repo, then evidence promotion (CRA-0004) if ELS/AERF is active
+2. EGLS adoption exercise complete — [CRA Adoption Report EGLS-001](docs/Development/EGLS_Adoption/CRA_Adoption_Report_EGLS-001.md); expand genesis inventory backlog or CRA-0004 evidence promotion next
 3. Mature governance and validation methodology as adopters require
 
 ## Documentation Map
@@ -65,6 +65,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ### Program Operations
 
 - [Development](docs/Development/README.md) — adoption and validation guidance
+- [EGLS Adoption](docs/Development/EGLS_Adoption/Genesis_Document_Inventory.md) — first CRA reference adoption (`technique-palm-muting`)
 - [CRA Adoption Roadmap](docs/Development/CRA_Adoption_Roadmap.md) — next steps after foundational specs
 - [Governance](docs/Governance/README.md) — specification evolution policy
 - [Reference](docs/Reference/README.md) — controlled vocabulary ([Glossary](docs/Reference/Glossary.md))
