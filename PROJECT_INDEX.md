@@ -18,14 +18,14 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 |---|---|
 | **Project** | Canonical Representation Architecture (CRA) |
 | **Purpose** | Define invariant principles for canonical knowledge representation |
-| **Status** | CRA-0001 Draft v1.0 published; identity and fidelity specs deferred |
+| **Status** | CRA-0001 and CRA-0002 Draft v1.0 published; representation fidelity spec deferred |
 | **Repository** | https://github.com/edbecnel/Canonical-Representation-Architecture |
 | **EDF profile** | `core` |
 
 ## Current Priorities
 
-1. Review and stabilize **CRA-0001** (Foundational Architectural Principles)
-2. Plan CRA-0002 (identity model) and CRA-0003 (representation fidelity)
+1. Review and stabilize **CRA-0001** (Foundational Architectural Principles) and **CRA-0002** (Identity Model)
+2. Plan CRA-0003 (representation fidelity)
 3. Develop controlled vocabulary from specifications rather than premature glossary standardization
 
 ## Documentation Map
@@ -33,6 +33,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ### Architectural Research
 
 - [Canonical Knowledge research](docs/AI/Architectural_Research/Canonical_Knowledge/README.md) — complete
+- [Identity Model research](docs/AI/Architectural_Research/Identity_Model/README.md) — complete
 - [Comparative Analysis](docs/AI/Architectural_Research/Canonical_Knowledge/Comparative_Analysis.md)
 - [Conclusions and CRA-0001 handoff](docs/AI/Architectural_Research/Canonical_Knowledge/Conclusions.md)
 
@@ -56,6 +57,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ### Normative Specifications
 
 - [CRA-0001 — Foundational Architectural Principles](docs/Specifications/CRA-0001.md) — Draft v1.0
+- [CRA-0002 — Identity Model](docs/Specifications/CRA-0002.md) — Draft v1.0
 - [Specifications domain](docs/Specifications/README.md)
 
 ### Program Operations
@@ -72,7 +74,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 
 ## AI Context
 
-AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. `CRA-0001` is the authoritative principles specification; do not author subsequent normative specifications unless explicitly requested.
+AI assistants should begin here, follow links to authoritative documents, and avoid inventing project facts. `CRA-0000` is historical context only — not a normative specification. `CRA-0001` is the authoritative principles specification; `CRA-0002` is the authoritative identity model specification; do not author subsequent normative specifications unless explicitly requested.
 
 ## Related Documents
 

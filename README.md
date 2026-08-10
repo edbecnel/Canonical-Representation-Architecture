@@ -6,7 +6,7 @@ CRA is not a software framework or implementation technology. It is an architect
 
 ## Status
 
-Active — CRA-0001 (Foundational Architectural Principles) published as Draft v1.0.
+Active — CRA-0001 (Foundational Architectural Principles) and CRA-0002 (Identity Model) published as Draft v1.0.
 
 ## Documentation
 
@@ -18,6 +18,7 @@ Key documents:
 - [`PROJECT_CHARTER.md`](PROJECT_CHARTER.md) — architecture program mission and scope
 - [`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md) — architecture decision index
 - [`CRA-0001`](docs/Specifications/CRA-0001.md) — Foundational Architectural Principles (normative; Draft v1.0)
+- [`CRA-0002`](docs/Specifications/CRA-0002.md) — Identity Model (normative; Draft v1.0)
 - [`docs/Specifications/README.md`](docs/Specifications/README.md) — normative specifications index
 
 ## Repository Structure

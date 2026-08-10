@@ -108,9 +108,22 @@ CRA-0001:
 
 This research directory remains available as engineering evidence. It does not derive normative authority.
 
+## Handoff to CRA-0002
+
+**Status:** Complete (2026-08-10). Normative content is in [`CRA-0002 — Identity Model`](../../../Specifications/CRA-0002.md).
+
+Open question 2 (identity model) is resolved at the identity-model level:
+
+- canonical identifiers, equivalence rules, and versioning semantics are defined in CRA-0002;
+- representation fidelity remains deferred to CRA-0003.
+
+See [Identity Model Synthesis](../Identity_Model/Synthesis.md) for the engineering rationale.
+
 ## Related Documents
 
 - [Comparative_Analysis.md](Comparative_Analysis.md)
 - [Architectural_Evaluation_Methodology.md](Architectural_Evaluation_Methodology.md)
 - [CRA-0000](../../../../CRA-0000.md)
+- [CRA-0002 — Identity Model](../../../Specifications/CRA-0002.md)
+- [Identity Model Synthesis](../Identity_Model/Synthesis.md)
 - [docs/Specifications/README.md](../../../Specifications/README.md)

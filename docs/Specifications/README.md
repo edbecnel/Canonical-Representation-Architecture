@@ -26,6 +26,7 @@ Normative specifications use the `CRA-NNNN` identifier series beginning at `CRA-
 ## Authoritative Documents
 
 - [CRA-0001 — Foundational Architectural Principles](CRA-0001.md) — Draft v1.0
+- [CRA-0002 — Identity Model](CRA-0002.md) — Draft v1.0
 
 ## Navigation
 
