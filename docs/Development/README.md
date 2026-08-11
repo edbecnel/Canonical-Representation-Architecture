@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** CRA program evolution and adopter guidance
-> **Last Reviewed:** 2026-08-03
+> **Last Reviewed:** 2026-08-12
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -24,6 +24,7 @@ This is distinct from software product engineering (Developer Handbook, API, Dep
 
 - [ASR Bootstrap Report](../../ASR_BOOTSTRAP_REPORT.md) — outcome of EDF Architecture Specification Repository bootstrap
 - [CRA Adoption Roadmap](CRA_Adoption_Roadmap.md) — next steps after foundational specifications
+- [Knowledge Interaction/Evolution Workstream](Knowledge_Interaction_Evolution_Workstream.md) — active architectural workstream bridging discovery to future normative work
 - [EGLS Adoption](EGLS_Adoption/Genesis_Document_Inventory.md) — genesis document inventory and adoption report
 
 ## What Belongs Here

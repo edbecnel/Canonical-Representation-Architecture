@@ -14,7 +14,9 @@ Start with [`PROJECT_INDEX.md`](PROJECT_INDEX.md), the primary documentation hub
 
 Key documents:
 
-- [`CRA-0000.md`](CRA-0000.md) — permanent historical foundation (Architectural Discovery Record)
+- [CRA-0000.md](CRA-0000.md) — permanent historical foundation (Architectural Discovery Record)
+- [AI Canonical Knowledge Interaction and Evolution](docs/Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) — second-wave architectural discovery
+- [Knowledge Interaction/Evolution Workstream](docs/Development/Knowledge_Interaction_Evolution_Workstream.md) — active architectural workstream
 - [`PROJECT_CHARTER.md`](PROJECT_CHARTER.md) — architecture program mission and scope
 - [`ARCHITECTURE_DECISIONS.md`](ARCHITECTURE_DECISIONS.md) — architecture decision index
 - [`CRA-0001`](docs/Specifications/CRA-0001.md) — Foundational Architectural Principles (normative; Draft v1.0)
@@ -33,6 +35,9 @@ Canonical-Representation-Architecture/
 ├── CRA-0000.md              # Historical foundation (preserved at root)
 ├── docs/
 │   ├── Architecture/
+│   │   ├── Discovery_Records/
+│   │   ├── ADRs/
+│   │   └── Watch_Items/
 │   ├── Specifications/
 │   ├── Governance/
 │   ├── Reference/

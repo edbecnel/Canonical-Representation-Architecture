@@ -3,7 +3,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** CRA program evolution after foundational specifications
-> **Last Reviewed:** 2026-08-10
+> **Last Reviewed:** 2026-08-12
 > **Review Frequency:** On Change
 
 # CRA Adoption Roadmap
@@ -56,6 +56,22 @@ Choose **one** path based on program need. Default recommendation: **Option D fi
 
 **Outcome:** [CRA Adoption Report EGLS-001](EGLS_Adoption/CRA_Adoption_Report_EGLS-001.md) · [Genesis Inventory](EGLS_Adoption/Genesis_Document_Inventory.md) · [ADR-0001](../Architecture/ADRs/ADR-0001-egls-identifier-alignment.md) · [ADR-0002](../Architecture/ADRs/ADR-0002-egls-production-identity-model.md) · [ADR-0003](../Architecture/ADRs/ADR-0003-discovery-and-retrieval-separation.md)
 
+## Parallel Architectural Workstream
+
+The Options above are **mutually exclusive strategic alternatives** for the next substantive work path. They are not the only architectural activity the program may pursue in parallel.
+
+### Knowledge Interaction/Evolution Workstream
+
+**Status:** Active (2026-08-12)
+
+**Purpose:** Preserve and structure architectural discoveries from [AI Canonical Knowledge Interaction and Evolution](../Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) and bridge them to future normative work without prematurely chartering specifications.
+
+**Approach:** Maintain [Knowledge Interaction/Evolution Workstream](Knowledge_Interaction_Evolution_Workstream.md) as the primary living document mapping discoveries to architectural questions, candidate workstreams, dependencies, and [Watch Items](../Architecture/Watch_Items/README.md) (AWI-0001–AWI-0004).
+
+**Relationship to Options A–D:** This workstream **informs** future selection among Options A–D and subsequent normative chartering. It does not replace or compete with those strategic paths. For example, candidate workstream analysis for canonical relationships overlaps Option B; knowledge evolution analysis may inform Option A (CRA-0004 Evidence Promotion candidate) if that path is later selected.
+
+**Outcome:** [Knowledge Interaction/Evolution Workstream](Knowledge_Interaction_Evolution_Workstream.md) · [Discovery Records](../Architecture/Discovery_Records/README.md) · [AWI-0001](../Architecture/Watch_Items/AWI-0001-knowledge-evolution-and-canonicalization.md)–[AWI-0004](../Architecture/Watch_Items/AWI-0004-cross-authority-canonical-knowledge.md)
+
 ## Deferred Program Operations
 
 Non-blocking infrastructure to mature over time:
@@ -75,5 +91,6 @@ Non-blocking infrastructure to mature over time:
 ## Related Documents
 
 - [PROJECT_INDEX.md](../../PROJECT_INDEX.md)
+- [Knowledge Interaction/Evolution Workstream](Knowledge_Interaction_Evolution_Workstream.md)
 - [Glossary](../Reference/Glossary.md)
 - [Project Charter](../../PROJECT_CHARTER.md)
