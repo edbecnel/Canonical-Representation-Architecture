@@ -4,7 +4,7 @@
 > **Document Class:** Adoption Exercise (informative)
 > **Owner:** CRA Architecture Team
 > **Applies To:** EGLS as CRA reference adopter
-> **Last Reviewed:** 2026-08-10
+> **Last Reviewed:** 2026-08-11
 > **Review Frequency:** On Change
 
 # CRA Adoption Report — EGLS-001
@@ -33,7 +33,7 @@ Palm muting content was extracted from Phase 2 §2.1 and authored as a governed 
 |---|---|
 | FP-1 | Knowledge Object (canonical) is distinct from navigation links and future index entries (derived) |
 | FP-2 | `id: technique-palm-muting` persists if file moves from `02_Technique/Palm_Muting.md` to another path |
-| FP-3 | Future cross-references use `id`, not file paths |
+| FP-3 | Cross-references use `id` (`technique-palm-muting` ↔ `technique-left-hand-muting`), not file paths |
 | FP-4 | Designated `status: published` within EGLS scope by governance exercise |
 | FP-5 | Provenance and epistemic content preserved in Markdown encoding |
 
@@ -76,7 +76,35 @@ Per [CRA-0002](../../Specifications/CRA-0002.md) IM-1 and IM-2, production ident
 
 Organizational locators MAY take multiple equivalent forms for the same artifact: repository-relative file paths, scope-qualified colon paths (for example, `egls:02_Technique/Palm_Muting`), network URLs, or other storage keys. CRA permits multiple locators per artifact without affecting identity equivalence.
 
-See [ADR-0002 — EGLS Production Identity Model](../../Architecture/ADRs/ADR-0002-egls-production-identity-model.md) for the accepted architectural decision. Implementation is deferred until an identity registry is introduced or a second governed Knowledge Object is authored (see **Gaps and Watch Items** below).
+See [ADR-0002 — EGLS Production Identity Model](../../Architecture/ADRs/ADR-0002-egls-production-identity-model.md) for the accepted architectural decision. **Phase 2 (2026-08-11):** minimal identity registry implemented; see addendum below.
+
+## Phase 2 Addendum (EGLS-002)
+
+Second adoption increment: **`technique-left-hand-muting`** plus minimal identity registry.
+
+| Field | Value |
+|---|---|
+| **Second canonical artifact** | `technique-left-hand-muting` |
+| **EGLS encoding** | [`02_Technique/Left_Hand_Muting.md`](https://github.com/edbecnel/Electric-Guitar-Learning-System/blob/main/02_Technique/Left_Hand_Muting.md) |
+| **Identity registry** | [`10_Reference/knowledge_object_registry.yaml`](https://github.com/edbecnel/Electric-Guitar-Learning-System/blob/main/10_Reference/knowledge_object_registry.yaml) |
+| **Genesis provenance** | Phase 2 §2.2–2.3 (focused v1) |
+
+### ADR-0002 registry demonstration
+
+| Object | `canonical_id` | Slug `id` | Locators |
+|---|---|---|---|
+| Palm muting | `urn:uuid:184dd940-453f-4aeb-92cb-7d155a061006` | `technique-palm-muting` | `02_Technique/Palm_Muting.md`, `egls:02_Technique/Palm_Muting` |
+| Left-hand muting | `urn:uuid:30543cfe-269e-403a-b78a-9c2584b9a232` | `technique-left-hand-muting` | `02_Technique/Left_Hand_Muting.md`, `egls:02_Technique/Left_Hand_Muting` |
+
+Slug `id` values remain in Knowledge Object front matter; registry holds production UUID bindings per ADR-0002.
+
+### ADR-0003 resolution layer
+
+Registry serves as the **resolution** step between candidate slug identifiers and organizational locators. Registry `tags` provide hooks for a future discovery index; no full-text search index yet.
+
+### FP-3 cross-reference
+
+`technique-palm-muting` and `technique-left-hand-muting` reference each other by canonical `id`, not by file path.
 
 ## CRA-0003 Representation Fidelity
 
@@ -102,14 +130,14 @@ The ASCII tab diagram in the Knowledge Object body is a **fidelity-preserving** 
 
 ## Conformance Summary
 
-EGLS can demonstrate CRA-0001 principles-level, CRA-0002 identity-level, and CRA-0003 fidelity-level conformance for this single artifact. Full repository-wide conformance is not claimed.
+EGLS can demonstrate CRA-0001 principles-level, CRA-0002 identity-level, and CRA-0003 fidelity-level conformance for two related technique artifacts and a minimal identity registry. Full repository-wide conformance is not claimed.
 
 ## Gaps and Watch Items
 
 | Gap | Notes | Future action |
 |---|---|---|
-| No identity registry file | Identity carried in per-object front matter only | Consider registry when object count grows; see ADR-0002 |
-| No discovery index | Tags/metadata exist on `technique-palm-muting` but no search index or semantic path vocabulary | See ADR-0003; implement with registry |
+| Identity registry partial | Registry binds two objects; slug remains in front matter without `canonical_id` field | Add `canonical_id` to metadata standard when ready |
+| No discovery index | Registry tags exist but no search index or semantic path vocabulary | See ADR-0003; implement when object count grows |
 | `source` field not in EGLS field reference | Used for provenance in adoption exercise | Propose field in EGLS metadata standard |
 | Version lineage not exercised | v1.0 initial designation only | Demonstrate on first semantic amendment |
 | Evidence promotion | Not applicable to this guitar technique object | CRA-0004 candidate if AERF/ELS evidence workflow proceeds |

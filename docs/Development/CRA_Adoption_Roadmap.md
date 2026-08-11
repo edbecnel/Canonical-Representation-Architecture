@@ -48,13 +48,13 @@ Choose **one** path based on program need. Default recommendation: **Option D fi
 
 ### Option D — Adoption Exercise (recommended first)
 
-**Status:** **Complete** for EGLS genesis sample (`technique-palm-muting`, 2026-08-10).
+**Status:** **Phase 1 complete** (2026-08-10, `technique-palm-muting`). **Phase 2 complete** (2026-08-11, `technique-left-hand-muting` + identity registry).
 
 **When:** Prefer learning by doing over additional specifications.
 
 **Approach:** Apply CRA-0001–0003 to a reference repository (ELS, EGLS, or another CRA adopter). Capture gaps as [Watch Items](../Architecture/Watch_Items/README.md) or [ADRs](../Architecture/ADRs/README.md).
 
-**Outcome:** [CRA Adoption Report EGLS-001](EGLS_Adoption/CRA_Adoption_Report_EGLS-001.md) · [Genesis Inventory](EGLS_Adoption/Genesis_Document_Inventory.md) · [ADR-0001](../Architecture/ADRs/ADR-0001-egls-identifier-alignment.md)
+**Outcome:** [CRA Adoption Report EGLS-001](EGLS_Adoption/CRA_Adoption_Report_EGLS-001.md) · [Genesis Inventory](EGLS_Adoption/Genesis_Document_Inventory.md) · [ADR-0001](../Architecture/ADRs/ADR-0001-egls-identifier-alignment.md) · [ADR-0002](../Architecture/ADRs/ADR-0002-egls-production-identity-model.md) · [ADR-0003](../Architecture/ADRs/ADR-0003-discovery-and-retrieval-separation.md)
 
 ## Deferred Program Operations
 
@@ -64,7 +64,7 @@ Non-blocking infrastructure to mature over time:
 |---|---|---|
 | Governance policy | [docs/Governance/](../Governance/README.md) | Deferred |
 | Adoption guides | [docs/Development/](../Development/README.md) | Minimal |
-| Architecture decisions | [ARCHITECTURE_DECISIONS.md](../../ARCHITECTURE_DECISIONS.md) | ADR-0001 (EGLS identifiers) |
+| Architecture decisions | [ARCHITECTURE_DECISIONS.md](../../ARCHITECTURE_DECISIONS.md) | ADR-0001–0003 |
 
 ## How to Proceed
 

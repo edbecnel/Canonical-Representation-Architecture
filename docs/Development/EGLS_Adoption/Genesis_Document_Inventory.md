@@ -4,7 +4,7 @@
 > **Document Class:** Adoption Exercise (informative)
 > **Owner:** CRA Architecture Team
 > **Applies To:** EGLS CRA adoption exercise
-> **Last Reviewed:** 2026-08-10
+> **Last Reviewed:** 2026-08-11
 > **Review Frequency:** On Change
 
 # Genesis Document — Knowledge Object Inventory
@@ -37,7 +37,7 @@ This document inventories candidate Knowledge Objects extracted from the genesis
 | Priority | Section | Candidate object | EGLS `type` | Suggested `id` | Status |
 |---|---|---|---|---|---|
 | **1** | §2.1 | Palm muting | technique | `technique-palm-muting` | **Implemented** |
-| 2 | §2.2–2.3 | Left-hand muting / stopping unused strings | technique | `technique-left-hand-muting` | Backlog |
+| **2** | §2.2–2.3 | Left-hand muting / stopping unused strings | technique | `technique-left-hand-muting` | **Implemented** (focused v1) |
 | 3 | §2.4 | Muting during bends | technique | `technique-muting-during-bends` | Backlog |
 | 4 | §2.4 | Practical Rule (muting) | reference | `reference-muting-practical-rule` | Backlog |
 | 5 | §2.4 | Silent String Check drill | exercise | `exercise-silent-string-check` | Backlog |
@@ -59,7 +59,8 @@ This document inventories candidate Knowledge Objects extracted from the genesis
 
 ## Backlog Notes
 
-- **Large sections** (§2.2–2.3 left-hand muting) may be split into multiple Knowledge Objects per EGLS single-responsibility principle.
+- **Identity registry** introduced at [`10_Reference/knowledge_object_registry.yaml`](https://github.com/edbecnel/Electric-Guitar-Learning-System/blob/main/10_Reference/knowledge_object_registry.yaml) — binds opaque `canonical_id` (URN UUID), slug `id`, and organizational locators for both muting objects per ADR-0002.
+- **Large sections** (§2.2–2.3 left-hand muting) may be split into additional Knowledge Objects per EGLS single-responsibility principle; current `technique-left-hand-muting` is a focused v1.
 - **Learning Path** objects (`learning-path-*`) are composite; implement after foundational Techniques, References, and Scales exist.
 - **Tab diagrams and ASCII notation** in the genesis document are **derived representations** of canonical technique content; preserve in Markdown as fidelity-preserving encodings per CRA-0003 RF-4.
 
