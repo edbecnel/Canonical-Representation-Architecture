@@ -100,11 +100,35 @@ Slug `id` values remain in Knowledge Object front matter; registry holds product
 
 ### ADR-0003 resolution layer
 
-Registry serves as the **resolution** step between candidate slug identifiers and organizational locators. Registry `tags` provide hooks for a future discovery index; no full-text search index yet.
+Registry serves as the **resolution** step between candidate slug identifiers and organizational locators. See Phase 3 addendum for the derived discovery index.
 
 ### FP-3 cross-reference
 
 `technique-palm-muting` and `technique-left-hand-muting` reference each other by canonical `id`, not by file path.
+
+## Phase 3 Addendum (EGLS-003)
+
+Third adoption increment: **minimal discovery index** per ADR-0003.
+
+| Field | Value |
+|---|---|
+| **Discovery index** | [`10_Reference/knowledge_object_discovery_index.yaml`](https://github.com/edbecnel/Electric-Guitar-Learning-System/blob/main/10_Reference/knowledge_object_discovery_index.yaml) |
+| **Nature** | Derived representation (CRA-0001 FP-1); rebuildable from identity registry |
+| **Reference README** | [`10_Reference/README.md`](https://github.com/edbecnel/Electric-Guitar-Learning-System/blob/main/10_Reference/README.md) — lookup flow + lossy RF-3 example |
+
+### ADR-0003 discovery → resolution → retrieval walkthrough
+
+**Query:** tag `muting`
+
+| Step | Layer | Result |
+|---|---|---|
+| 1. Discovery | `by_tag.muting` in discovery index | Candidates: `technique-palm-muting`, `technique-left-hand-muting` |
+| 2. Resolution | `knowledge_object_registry.yaml` | Confirms UUID bindings and locators for each candidate |
+| 3. Retrieval | Organizational locators | `02_Technique/Palm_Muting.md`, `02_Technique/Left_Hand_Muting.md` |
+
+Discovery returns candidate slug `id` values only. The discovery index is **lossy** for educational content (RF-3); canonical Knowledge Objects remain authoritative.
+
+**Not yet implemented:** full-text search, semantic path vocabulary (`egls:technique/muting`).
 
 ## CRA-0003 Representation Fidelity
 
@@ -137,7 +161,7 @@ EGLS can demonstrate CRA-0001 principles-level, CRA-0002 identity-level, and CRA
 | Gap | Notes | Future action |
 |---|---|---|
 | Identity registry partial | Registry binds two objects; slug remains in front matter without `canonical_id` field | Add `canonical_id` to metadata standard when ready |
-| No discovery index | Registry tags exist but no search index or semantic path vocabulary | See ADR-0003; implement when object count grows |
+| Discovery index partial | Tag/type index only; no full-text search or semantic path vocabulary | Extend index when object count grows; see ADR-0003 |
 | `source` field not in EGLS field reference | Used for provenance in adoption exercise | Propose field in EGLS metadata standard |
 | Version lineage not exercised | v1.0 initial designation only | Demonstrate on first semantic amendment |
 | Evidence promotion | Not applicable to this guitar technique object | CRA-0004 candidate if AERF/ELS evidence workflow proceeds |
