@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Canonical Representation Architecture documentation
-> **Last Reviewed:** 2026-08-12
+> **Last Reviewed:** 2026-08-22
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -29,6 +29,7 @@ In existing repositories, discovery records may reside at approved historical pa
 - [CRA-0000 — The Discovery of the Canonical Representation Architecture](../../CRA-0000.md) — Architectural Discovery Record (non-normative; permanent historical foundation)
 - [Discovery Records](Discovery_Records/README.md) — subsequent architectural discovery records
 - [AI Canonical Knowledge Interaction and Evolution](Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) — second-wave discovery (Permanent Historical Record)
+- [Pragmatic Canonicality and Delegated Authority](Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) — third-wave discovery (Candidate Architectural Position)
 - [Architecture Decision Records](ADRs/README.md)
 - [Watch Items](Watch_Items/README.md)
 - [Project Architecture Decisions](../../ARCHITECTURE_DECISIONS.md)

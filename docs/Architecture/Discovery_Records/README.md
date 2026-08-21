@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Non-normative architectural discovery records for CRA
-> **Last Reviewed:** 2026-08-12
+> **Last Reviewed:** 2026-08-22
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -30,6 +30,7 @@ Discovery records are **not** normative specifications. They explain what was di
 | Document | Status |
 |---|---|
 | [AI Canonical Knowledge Interaction and Evolution](AI_Canonical_Knowledge_Interaction_and_Evolution.md) | Permanent Historical Record |
+| [Pragmatic Canonicality and Delegated Authority](Pragmatic_Canonicality_and_Delegated_Authority.md) | Architectural Discovery / Candidate Architectural Position |
 
 ## What Belongs Here
 

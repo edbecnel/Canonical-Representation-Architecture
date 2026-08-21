@@ -3,22 +3,26 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** CRA program evolution — knowledge interaction and controlled evolution
-> **Last Reviewed:** 2026-08-12
+> **Last Reviewed:** 2026-08-22
 > **Review Frequency:** On Change
 
 # Knowledge Interaction/Evolution Workstream
 
 ## Purpose
 
-This document is the **primary living bridge** between the preserved [AI Canonical Knowledge Interaction and Evolution](../Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) discovery record and future CRA architectural work.
+This document is the **primary living bridge** between the preserved discovery records and future CRA architectural work:
+
+- [AI Canonical Knowledge Interaction and Evolution](../Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) — second-wave discovery
+- [Pragmatic Canonicality and Delegated Authority](../Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) — third-wave discovery
 
 It is **informative program guidance**, not a normative specification. It maps discoveries to architectural questions, candidate workstreams, dependencies, and potential outcomes without prematurely converting hypotheses into CRA structure.
 
-## Source Discovery Record
+## Source Discovery Records
 
 - [AI Canonical Knowledge Interaction and Evolution](../Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) — Architectural Discovery Record (Permanent Historical Record)
+- [Pragmatic Canonicality and Delegated Authority](../Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) — Architectural Discovery Record (Candidate Architectural Position)
 
-The discovery record body is preserved as historical reasoning. This workstream may refine, reject, or supersede its hypotheses; it must not rewrite the discovery record in place.
+The discovery record bodies are preserved as historical reasoning. This workstream may refine, reject, or supersede their hypotheses; it must not rewrite discovery records in place.
 
 ## Workstream Flow
 
@@ -92,6 +96,17 @@ The following questions require workstream evaluation. They are drawn from disco
 20. How should a consuming system distinguish canonical knowledge from derived representations?
 21. How should a system communicate when a response depends partly on canonical knowledge and partly on knowledge outside the canonical layer?
 
+### Delegated Authority and Pragmatic Canonicalization
+
+The following questions are drawn from [Pragmatic Canonicality and Delegated Authority](../Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) §§9–13 and §17.
+
+22. Does FP-4 already entail that canonical authority may be delegated, or does CRA need an explicit delegation architecture?
+23. How should the delegation chain (governing authority → canonicalization authority → designation) be represented and recovered?
+24. How should canonicalization rigor be recorded separately from canonical status?
+25. What architectural support does pragmatic canonicalization require beyond existing FP-4 recoverability?
+26. What provenance metadata is sufficient for delegated and pragmatic canonicalization decisions?
+27. How should economic and latency constraints on canonicalization be architecturally acknowledged without prescribing optimization algorithms?
+
 ## Foundational Questions for CRA-0001 Evaluation
 
 These discoveries appear potentially foundational. **CRA-0001 must not be modified normatively until separately evaluated.**
@@ -102,6 +117,23 @@ These discoveries appear potentially foundational. **CRA-0001 must not be modifi
 | **Reasoning-agent independence of canonical authority** | §17, 29.8 | Entailed by FP-4 (Governance Designation)? Refinement of FP-4? New obligation? |
 | **Canonicality ≠ universal applicability** | §§20–21, 29.11 | Wording negation sufficient, or distinct applicability architecture required? |
 | **Context vs applicability** | §21 | Distinct concepts? Relationship to scope and relationships? |
+| **Delegated canonical authority** | Pragmatic §§9–10, 17 | Entailed by FP-4? Refinement of FP-4? New obligation? |
+| **Pragmatic canonicalization** | Pragmatic §§11–13, 17 | New architectural concept? Extension of canonicalization policy (AWI-0001)? |
+
+## Candidate Principle Evaluation Matrix
+
+The following maps §17 candidate principles from [Pragmatic Canonicality and Delegated Authority](../Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) to likely disposition and CKES experimental evidence. **CRA-0001 must not be modified normatively until this evaluation is completed.**
+
+| Candidate principle | Likely disposition | Related Watch Item | CKES evidence (research doc §) |
+|---|---|---|---|
+| Canonicality is a governance property | Already largely normative in CRA-0001; evaluate informative cross-link only | [AWI-0002](../Architecture/Watch_Items/AWI-0002-applicability-and-epistemic-modeling.md) | — |
+| Canonicality is scoped | Already normative (Scope, FP-4) | — | — |
+| Canonical authority may be delegated | **New**; likely future extension of FP-4 or separate governance spec | [AWI-0005](../Architecture/Watch_Items/AWI-0005-delegated-authority-and-pragmatic-canonicalization.md) | §3, §18, §33 |
+| Automated delegated authority is permissible | **New**; ties to technology-independent role model | [AWI-0003](../Architecture/Watch_Items/AWI-0003-ai-assisted-knowledge-evaluation.md), AWI-0005 | §3, §18, §24, §33 |
+| Canonicalization rigor is governed | **New**; inform canonicalization policy work | [AWI-0001](../Architecture/Watch_Items/AWI-0001-knowledge-evolution-and-canonicalization.md), AWI-0005 | §§4–5, §10 |
+| Pragmatic canonicalization is legitimate | **New**; requires CKES validation | AWI-0005 | §§4–5, §19–20, §35 Q4–Q14 |
+| Canonical representation is evolvable | Partially normative via CRA-0002 supersession | AWI-0001 | §26–27 |
+| Provenance supports correctability | Partially normative via FP-4 recoverability; may need provenance metadata spec | AWI-0001, AWI-0005 | §§8–10, §26 |
 
 ## Candidate Workstreams
 
@@ -174,6 +206,7 @@ CRA-0004 Evidence Promotion (candidate) → informs Evolution workstream
 | [AWI-0002](../Architecture/Watch_Items/AWI-0002-applicability-and-epistemic-modeling.md) | Context vs applicability, epistemic status, contested knowledge |
 | [AWI-0003](../Architecture/Watch_Items/AWI-0003-ai-assisted-knowledge-evaluation.md) | AI-assisted canonicalization, independent evaluation, evidence aggregation |
 | [AWI-0004](../Architecture/Watch_Items/AWI-0004-cross-authority-canonical-knowledge.md) | Cross-repository authority, trust, external references |
+| [AWI-0005](../Architecture/Watch_Items/AWI-0005-delegated-authority-and-pragmatic-canonicalization.md) | Delegated authority, pragmatic canonicalization, rigor vs status |
 
 ## Research / Validation Needed
 
@@ -238,6 +271,9 @@ After relevant candidate workstreams produce chartered outcomes, propagate via s
 ## Related Documents
 
 - [AI Canonical Knowledge Interaction and Evolution](../Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md)
+- [Pragmatic Canonicality and Delegated Authority](../Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md)
+- [CKES — Pragmatic Canonicalization Research and Validation](https://github.com/edbecnel/Canonical-Knowledge-Engineering-System/blob/main/docs/Development/Pragmatic_Canonicalization_Research_and_Validation.md)
+- [CKES CRA Findings Report](https://github.com/edbecnel/Canonical-Knowledge-Engineering-System/blob/main/docs/Development/CRA_Findings_Report.md)
 - [Discovery Records](../Architecture/Discovery_Records/README.md)
 - [CRA-0000](../../CRA-0000.md)
 - [CRA Adoption Roadmap](CRA_Adoption_Roadmap.md)

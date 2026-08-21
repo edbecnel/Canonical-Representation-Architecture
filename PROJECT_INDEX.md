@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Canonical Representation Architecture documentation navigation
-> **Last Reviewed:** 2026-08-12
+> **Last Reviewed:** 2026-08-22
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -25,7 +25,7 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 ## Current Priorities
 
 1. Foundational trilogy (CRA-0001–CRA-0003) stabilized; [controlled vocabulary](docs/Reference/Glossary.md) published
-2. [Knowledge Interaction/Evolution Workstream](docs/Development/Knowledge_Interaction_Evolution_Workstream.md) active — bridge from [AI knowledge interaction discovery](docs/Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) to future architectural work
+2. [Knowledge Interaction/Evolution Workstream](docs/Development/Knowledge_Interaction_Evolution_Workstream.md) active — bridge from [AI knowledge interaction discovery](docs/Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) and [pragmatic canonicality discovery](docs/Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) to future architectural work
 3. EGLS adoption exercise complete — [CRA Adoption Report EGLS-001](docs/Development/EGLS_Adoption/CRA_Adoption_Report_EGLS-001.md); select next substantive path per [Adoption Roadmap](docs/Development/CRA_Adoption_Roadmap.md) Options A–D as program needs dictate
 4. Mature governance and validation methodology as adopters require
 
@@ -44,10 +44,11 @@ Primary documentation hub for the Canonical Representation Architecture (CRA) pr
 - [CRA-0000 — The Discovery of the Canonical Representation Architecture](CRA-0000.md) — Architectural Discovery Record (non-normative; permanent historical foundation)
 - [Discovery Records](docs/Architecture/Discovery_Records/README.md) — subsequent architectural discovery records
 - [AI Canonical Knowledge Interaction and Evolution](docs/Architecture/Discovery_Records/AI_Canonical_Knowledge_Interaction_and_Evolution.md) — second-wave discovery (Permanent Historical Record)
+- [Pragmatic Canonicality and Delegated Authority](docs/Architecture/Discovery_Records/Pragmatic_Canonicality_and_Delegated_Authority.md) — third-wave discovery (Candidate Architectural Position)
 
 ### Active Workstreams
 
-- [Knowledge Interaction/Evolution Workstream](docs/Development/Knowledge_Interaction_Evolution_Workstream.md) — primary bridge from AI knowledge interaction discovery to future architectural work
+- [Knowledge Interaction/Evolution Workstream](docs/Development/Knowledge_Interaction_Evolution_Workstream.md) — primary bridge from discovery records to future architectural work
 
 ### Core Identity
 

@@ -5,7 +5,7 @@
 > **Status:** Maintained
 > **Owner:** Architecture Team
 > **Applies To:** Open architectural questions and deferred concerns
-> **Last Reviewed:** 2026-08-12
+> **Last Reviewed:** 2026-08-22
 > **Review Frequency:** On Change
 
 ## Purpose
@@ -34,6 +34,7 @@ Serial numbers (`NNNN`) are assigned sequentially within this repository, beginn
 | [AWI-0002](AWI-0002-applicability-and-epistemic-modeling.md) | Applicability and Epistemic Modeling | Open |
 | [AWI-0003](AWI-0003-ai-assisted-knowledge-evaluation.md) | AI-Assisted Knowledge Evaluation | Open |
 | [AWI-0004](AWI-0004-cross-authority-canonical-knowledge.md) | Cross-Authority Canonical Knowledge | Open |
+| [AWI-0005](AWI-0005-delegated-authority-and-pragmatic-canonicalization.md) | Delegated Authority and Pragmatic Canonicalization | Open |
 
 ## What Belongs Here
 
